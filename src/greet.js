@@ -1,3 +1,3 @@
-const greeting = "Yo World."
+const getGreeting = name => `Yo ${name}.`;
 
-export default greeting // exports module that can be accessed with an import
+export default getGreeting; // exports module that can be accessed with an import

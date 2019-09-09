@@ -1,4 +1,4 @@
-import greeting from './greet'
+import getGreeting from './greet'
 
 console.log("WAT");
-console.log(greeting);
+console.log(getGreeting('World'));
