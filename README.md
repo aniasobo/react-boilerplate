@@ -18,10 +18,4 @@ Clone/download, run `npm install` from within project directory.
    
 or: change the `mode` flag inside `webpack.config.js` to `development` and run `$ npm run build`  
 
-**Run in command line**  
-
-`$ node dist/app.bundle.js`  
-
-**Run with Babel**  
-
-`$ $(npm bin)/babel ./src/greet.js --presets=@babel/preset-env`  
+**Then open the `dist/index.html` file in browser**  
