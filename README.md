@@ -2,7 +2,7 @@ React boilerplate project - source: egghead.io/[Andy Van Slaars](https://github.
 
 Sample project in React with Webpack, Babel. It: 
 * bundles JS modules with Webpack
-* compiles modern ES6 to browser-compatibile JS with Babel
+* compiles modern ES6 and JSX to browser-compatibile JS with Babel
 
 ---
 
