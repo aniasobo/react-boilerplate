@@ -1,6 +1,10 @@
 React boilerplate project - source: egghead.io/[Andy Van Slaars](https://github.com/avanslaars)
 
-Sample project in React with Webpack, Babel
+Sample project in React with Webpack, Babel. It: 
+* bundles JS modules with Webpack
+* compiles modern ES6 to browser-compatibile JS with Babel
+
+---
 
 Clone/download, run `npm install` from within project directory.  
 
