@@ -14,8 +14,8 @@ Clone/download, run `npm install` from within project directory.
 
 **To build in development mode**  
 
-`$ npm run build -- --mode development`  
-   
-or: change the `mode` flag inside `webpack.config.js` to `development` and run `$ npm run build`  
+`$ npm run dev`  
 
+(this script will run with the `--watch` and `--mode development` flags, so every saved change to `App.js` will be added to the build. `C^` in your terminal to quit the watch mode)       
+   
 **Then open the `dist/index.html` file in browser**  
