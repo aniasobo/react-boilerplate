@@ -16,4 +16,4 @@ Clone/download, run `npm install` from within project directory.
 
 `$ npm run dev`  
 
-**Then open `localhost:8080` file in browser. The server is watching for changes so no need to refresh**  
+**Then open `localhost:9000` file in browser. The server is watching for changes so no need to refresh**  
