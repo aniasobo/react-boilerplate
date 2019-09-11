@@ -16,4 +16,8 @@ Clone/download, run `npm install` from within project directory.
 
 `$ npm run dev`  
 
-**The script will automatically open `localhost:9000` in your browser. The server is watching for changes so no need to refresh**  
+The script will automatically open `localhost:9000` in your browser. The server is watching for changes so no need to refresh.  
+
+**To build in dev mode with hot reloading**  
+
+`$ npm run dev:hot` - the state of your app will be preserved while changes are applied live.
