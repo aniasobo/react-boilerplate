@@ -21,3 +21,13 @@ The script will automatically open `localhost:9000` in your browser. The server 
 **To build in dev mode with hot reloading**  
 
 `$ npm run dev:hot` - the state of your app will be preserved while changes are applied live.
+
+**To view bundle sizes**  
+
+Start with `$ npm run build`  
+       
+Follow with `$ open dist/bundle_sizes.html`  
+      
+The report will open in a browser window.  
+    
+    
