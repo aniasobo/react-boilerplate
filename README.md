@@ -30,4 +30,4 @@ Follow with `$ open dist/bundle_sizes.html`
       
 The report will open in a browser window.  
     
-    
+**Run tests with `$ npm test`**      
