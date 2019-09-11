@@ -38,10 +38,12 @@ The report will open in a browser window.
 
 Tests are colocated in `src` and run by a global config `testSetup.js`.
 
-### 💅 Format
+### 💅 Lint and format with ESLint and Prettier
 
 Use `$ npm run format` to format last changed files with `pretty-quick`.  
 
 Use `$ npx prettier --write "**/*.js"` to format and save all existing JS files.
 
 Use `$ npx prettier --write "**/*.json"` to format and save all existing JSON files.
+
+Use `$ npm run lint` to lint your code. 
