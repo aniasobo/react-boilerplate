@@ -13,21 +13,6 @@ module.exports = {
         test: /\.js$/, // regex matches any file that ends with .js
         loader: 'babel-loader',
         exclude: /node_modules/,
-        options: {
-          presets: [['@babel/preset-env', {
-            targets: [
-              'last 2 versions',
-              'not dead',
-              'not < 2%',
-              'not ie 11', // drops support for IE11 browser
-            ],
-            useBuiltIns: 'entry'
-          }], '@babel/preset-react'],
-          plugins: [
-            'react-hot-loader/babel', 
-            '@babel/plugin-proposal-class-properties',
-            '@babel/plugin-syntax-dynamic-import']
-        }
       },
         {
           test: /\.css$/,
