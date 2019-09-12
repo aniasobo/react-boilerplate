@@ -60,3 +60,21 @@ Use `$ npx prettier --write "**/*.json"` to format and save all existing JSON fi
 Use `$ npm run lint` to lint your code with ESLint and check for accessibility issues with `jsx-a11y`.
 
 Open the browser console in development mode to inspect runtime accessibility issues detected by `react-aXe`
+
+**This project will prevent you from committing code that contains linter errors and failing tests**
+
+To change this setting, edit your `package.json` accordingly:
+
+```
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && npm run lint && npm run test"
+    }
+  }
+```
+
+`pretty-quick --staged` fixes formatting on files staged for commit  
+`npm run lint` runs lint  
+`npm run test` runs tests
+
+**It's not recommended though!**
