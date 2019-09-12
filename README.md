@@ -25,7 +25,7 @@ Run `$ npm install` from within project directory.
 
 `$ npm run build`
 
-### ䷴ Run development mode
+### 🤓 Run development mode
 
 `$ npm run dev`
 
@@ -60,8 +60,10 @@ Use `$ npx prettier --write "**/*.json"` to format and save all existing JSON fi
 Use `$ npm run lint` to lint your code with ESLint and check for accessibility issues with `jsx-a11y`.
 
 Open the browser console in development mode to inspect runtime accessibility issues detected by `react-aXe`
+  
 
-**This project will prevent you from committing code that contains linter errors and failing tests**
+
+### 👮🏻‍♀️ This project will prevent you from committing code that contains linter errors and failing tests
 
 To change this setting, edit your `package.json` accordingly:
 
@@ -77,4 +79,4 @@ To change this setting, edit your `package.json` accordingly:
 `npm run lint` runs lint  
 `npm run test` runs tests
 
-**It's not recommended though!**
+**🙈 Use responsibly!**
