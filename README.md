@@ -8,7 +8,8 @@ Sample project in React with Webpack, Babel and Jest. It:
 - is configured with a full suite of modern JS tooling
 - is outfitted with Prettier and ESLint to format and lint code
 - prevents unlinted and faulty code from being committed with Husky pre-commit hooks
-- prevents the use of deprecated React APIs with React.StrictMode
+- prevents the use of deprecated React APIs with `React.StrictMode`
+- guards against accessibility errors with `jsx-a11y` and `React-axe` at runtime
 
 ---
 
@@ -27,6 +28,8 @@ The script will automatically open `localhost:9000` in your browser. The server 
 ### 🌶 To build in dev mode with hot reloading
 
 `$ npm run dev:hot` - the state of your app will be preserved while changes are applied live.
+
+**While in dev, you can inspect runtime accessibility issues detected by React-axe in the console**
 
 ### ⦝ To view bundle sizes
 
