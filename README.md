@@ -7,6 +7,7 @@ Sample project in React with Webpack, Babel and Jest. It:
 - runs Jest tests for React components
 - is configured with a full suite of modern JS tooling
 - is outfitted with Prettier and ESLint to format and lint code
+- prevents unlinted and faulty code from being committed with Husky pre-commit hooks
 
 ---
 
@@ -40,10 +41,10 @@ Tests are colocated in `src` and run by a global config `testSetup.js`.
 
 ### 💅 Lint and format with ESLint and Prettier
 
-Use `$ npm run format` to format last changed files with `pretty-quick`.  
+Use `$ npm run format` to format last changed files with `pretty-quick`.
 
 Use `$ npx prettier --write "**/*.js"` to format and save all existing JS files.
 
 Use `$ npx prettier --write "**/*.json"` to format and save all existing JSON files.
 
-Use `$ npm run lint` to lint your code. 
+Use `$ npm run lint` to lint your code.
