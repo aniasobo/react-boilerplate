@@ -17,7 +17,7 @@ React boilerplate project - following: egghead.io/[Andy Van Slaars](https://gith
 
 ### 👯‍♀️ Clean clone
 
-Use `$ git clone --depth=1 https://github.com/aniasobo/react-boilerplate name-of-your-app` to clone this repo as a clean slate, without the commit history.
+Use `$ git clone --depth=1 git@github.com:aniasobo/react-boilerplate.git name-of-your-app` to clone this repo as a clean slate, without the commit history.
 
 Run `$ npm install` from within project directory.
 
