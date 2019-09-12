@@ -1,10 +1,10 @@
-React boilerplate project - source: egghead.io/[Andy Van Slaars](https://github.com/avanslaars)
+React boilerplate project - following: egghead.io/[Andy Van Slaars](https://github.com/avanslaars)
 
 Sample project in React with Webpack, Babel and Jest. It:
 
 - bundles JS modules with Webpack
 - compiles modern ES6 and JSX to browser-compatibile JS with Babel
-- runs Jest tests for React components
+- runs Jest tests on React components
 - is configured with a full suite of modern JS tooling
 - is outfitted with Prettier and ESLint to format and lint code
 - prevents unlinted and faulty code from being committed with Husky pre-commit hooks
@@ -13,23 +13,29 @@ Sample project in React with Webpack, Babel and Jest. It:
 
 ---
 
-Clone/download, run `npm install` from within project directory.
+# How to use this repo
 
-### 🎬 To build in production mode
+### 👯‍♀️ Clean clone
+
+Use `$ git clone --depth=1 https://github.com/aniasobo/react-boilerplate name-of-your-app` to clone this repo as a clean slate, without the commit history.
+
+Run `$ npm install` from within project directory.
+
+### 🎬 Run production mode
 
 `$ npm run build`
 
-### ䷴ To build in development mode
+### ䷴ Run development mode
 
 `$ npm run dev`
 
 The script will automatically open `localhost:9000` in your browser. The server is watching for changes so no need to refresh.
 
-### 🌶 To build in dev mode with hot reloading
+**While in dev, you can inspect runtime accessibility issues detected by React-axe in the console**
+
+### 🌶🌶🌶 To build in dev mode with hot reloading
 
 `$ npm run dev:hot` - the state of your app will be preserved while changes are applied live.
-
-**While in dev, you can inspect runtime accessibility issues detected by React-axe in the console**
 
 ### ⦝ To view bundle sizes
 
@@ -51,4 +57,6 @@ Use `$ npx prettier --write "**/*.js"` to format and save all existing JS files.
 
 Use `$ npx prettier --write "**/*.json"` to format and save all existing JSON files.
 
-Use `$ npm run lint` to lint your code.
+Use `$ npm run lint` to lint your code with ESLint and check for accessibility issues with `jsx-a11y`.
+
+Open the browser console in development mode to inspect runtime accessibility issues detected by `react-aXe`
