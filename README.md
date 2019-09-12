@@ -1,6 +1,6 @@
 React boilerplate project - following: egghead.io/[Andy Van Slaars](https://github.com/avanslaars)
 
-Sample project in React with Webpack, Babel and Jest. It:
+## Sample project in React with Webpack, Babel and Jest. It:
 
 - bundles JS modules with Webpack
 - compiles modern ES6 and JSX to browser-compatibile JS with Babel
