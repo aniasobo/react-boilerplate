@@ -19,7 +19,27 @@ React boilerplate project - following: egghead.io/[Andy Van Slaars](https://gith
 
 Use `$ git clone --depth=1 git@github.com:aniasobo/react-boilerplate.git name-of-your-app` to clone this repo as a clean slate, without the commit history.
 
-Run `$ npm install` from within project directory.
+Navigate to your app directory.
+
+Run `$ rm -rf .git` to remove the old remote.
+
+Run `$ git init` to create your own git repo for the project. Follow instructions on GitHub to set up a new project and add your own remote.
+
+Update `package.json` with info about your new project:
+
+```
+{
+  "name": "name-of-your-project",
+  "version": "1.0.0",
+  "description": "awesomeness",
+  ...
+```
+
+...or run `$ npm init -y` for a fresh `package.json`.
+
+Run `$ npm i` to install dev and runtime dependencies.
+
+You are now ready to go!
 
 ### 🎬 Run production mode
 
@@ -60,8 +80,6 @@ Use `$ npx prettier --write "**/*.json"` to format and save all existing JSON fi
 Use `$ npm run lint` to lint your code with ESLint and check for accessibility issues with `jsx-a11y`.
 
 Open the browser console in development mode to inspect runtime accessibility issues detected by `react-aXe`
-  
-
 
 ### 👮🏻‍♀️ This project will prevent you from committing code that contains linter errors and failing tests
 
