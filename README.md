@@ -8,6 +8,7 @@ Sample project in React with Webpack, Babel and Jest. It:
 - is configured with a full suite of modern JS tooling
 - is outfitted with Prettier and ESLint to format and lint code
 - prevents unlinted and faulty code from being committed with Husky pre-commit hooks
+- prevents the use of deprecated React APIs with React.StrictMode
 
 ---
 
